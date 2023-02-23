@@ -1,0 +1,20 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Domagoj Marsic", email = "dmars@protonmail.com"},
+]
+dependencies = [
+    "requests>=2.28.1",
+    "flask>=2.2.2",
+    "tinydb>=4.7.1",
+]
+requires-python = ">=3.9"
+license = {text = "bsd-3-clause"}
+
+[build-system]
+requires = ["pdm-pep517>=1.0.0"]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm]
