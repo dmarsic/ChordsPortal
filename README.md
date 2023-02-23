@@ -24,7 +24,7 @@ $ make
 
 ## Run in a container
 
-RUnning in a container makes your environment ephemeral, but it ensures the service is containerized
+Running in a container makes your environment ephemeral, but it ensures the service is containerized
 and is easy to start.
 
 [Makefile](Makefile) calls [podman](https://docs.podman.io/en/latest/), but
